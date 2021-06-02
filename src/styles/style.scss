@@ -1,0 +1,52 @@
+@import "utils/normalize";
+@import "index";
+@import "order";
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;  
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  font-weight: 400;  
+}

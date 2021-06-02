@@ -1,0 +1,20 @@
+@import "../utils/variables";
+
+@mixin media-tablet {
+  @media (min-width: 780px) {
+    @content;
+  }
+}
+
+@mixin media-laptop {
+  @media (min-width: 1445px) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (min-width: 375px) {
+    @content;
+  }
+}
+

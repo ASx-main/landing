@@ -1,0 +1,23 @@
+@import "media";
+
+@font-face {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  src: url('../fonts/gilroy-bold.ttf');
+}
+
+@font-face {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  src: url(../fonts/gilroy-medium.ttf);
+}
+
+@mixin title {
+  font-size: 34px;
+  line-height: 42px;  
+}
+
+@mixin subtitle {
+  font-size: 18px;
+  line-height: 22px;  
+}
